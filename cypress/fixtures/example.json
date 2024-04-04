@@ -3,5 +3,8 @@
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes",
   "gender":"Female",
-  "password":"11223344"
+  "password":"11223344",
+  "ProductName":["Blackberry","Nokia Edge"],
+  "EpalletEmail":"qa.itg6.2021@gmail.com",
+  "EpalletPassword":"9Aug1997@@"
 }

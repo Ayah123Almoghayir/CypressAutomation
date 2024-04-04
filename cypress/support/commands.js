@@ -30,3 +30,12 @@ Cypress.Commands.add('selectproduct', (productname) => {
         }
     })
  })
+ Cypress.Commands.add('login', () => { 
+    cy.visit("https://customer-staging.epallet.com/")
+    cy.get('[href="/?epallet_login=true&source_path=/"] > .ant-btn').click()
+    cy.get('#Email').type('qa.itg6.2021@gmail.com')
+    cy.get('#Password').type('9Aug1997@@')
+    cy.get(':nth-child(6) > .ant-btn').click()
+        }
+    )
+ 
